@@ -1,0 +1,105 @@
+{
+  "random_positive_price_cases_passed": 1000,
+  "scenario_rows": [
+    {
+      "Hreq": 7132500.0,
+      "B": 7925000.0,
+      "U": 8717500.0,
+      "R": 1286502.3879568782,
+      "D": 2058403.8207310052,
+      "a": 1.0,
+      "V": 0.0,
+      "cb": 0.25,
+      "cu": 0.125,
+      "cs": 1.0,
+      "budget_deficit": 494002.38795687817,
+      "exposure_deficit": 473403.8207310047,
+      "budget_upgrade": 494002.38795687817,
+      "exposure_upgrade": 473403.8207310047,
+      "external_nonrepayable_funds": 0.0,
+      "donor_advance": 7132500.0,
+      "total_initial_project_cash": 7132500.0,
+      "weighted_resource_cost": 182676.07458059513,
+      "lp_cost": 182676.07458059513,
+      "lp_solution": [
+        494002.38795687817,
+        473403.8207310047,
+        0.0
+      ],
+      "candidate_s": [
+        0.0,
+        473403.8207310047,
+        494002.38795687817,
+        7132500.0
+      ],
+      "scenario": "Authority expansion"
+    },
+    {
+      "Hreq": 7132500.0,
+      "B": 7925000.0,
+      "U": 8717500.0,
+      "R": 1286502.3879568782,
+      "D": 2058403.8207310052,
+      "a": 1.0,
+      "V": 0.0,
+      "cb": 0.25,
+      "cu": 1.5,
+      "cs": 1.0,
+      "budget_deficit": 494002.38795687817,
+      "exposure_deficit": 473403.8207310047,
+      "budget_upgrade": 20598.56722587347,
+      "exposure_upgrade": 0.0,
+      "external_nonrepayable_funds": 473403.8207310047,
+      "donor_advance": 6659096.179268995,
+      "total_initial_project_cash": 7132500.0,
+      "weighted_resource_cost": 478553.46253747307,
+      "lp_cost": 478553.46253747307,
+      "lp_solution": [
+        20598.56722587347,
+        0.0,
+        473403.8207310047
+      ],
+      "candidate_s": [
+        0.0,
+        473403.8207310047,
+        494002.38795687817,
+        7132500.0
+      ],
+      "scenario": "Mixed financing"
+    },
+    {
+      "Hreq": 7132500.0,
+      "B": 7925000.0,
+      "U": 8717500.0,
+      "R": 1286502.3879568782,
+      "D": 2058403.8207310052,
+      "a": 1.0,
+      "V": 0.0,
+      "cb": 1.5,
+      "cu": 0.25,
+      "cs": 1.0,
+      "budget_deficit": 494002.38795687817,
+      "exposure_deficit": 473403.8207310047,
+      "budget_upgrade": 0.0,
+      "exposure_upgrade": 0.0,
+      "external_nonrepayable_funds": 494002.38795687817,
+      "donor_advance": 6638497.612043122,
+      "total_initial_project_cash": 7132500.0,
+      "weighted_resource_cost": 494002.38795687817,
+      "lp_cost": 494002.38795687817,
+      "lp_solution": [
+        0.0,
+        0.0,
+        494002.38795687817
+      ],
+      "candidate_s": [
+        0.0,
+        473403.8207310047,
+        494002.38795687817,
+        7132500.0
+      ],
+      "scenario": "External resources"
+    }
+  ],
+  "scope": "Budget ceiling. Known feasible reserve/span representation. External funds nonrepayable and available at initial cash date. Unit costs hypothetical."
+}

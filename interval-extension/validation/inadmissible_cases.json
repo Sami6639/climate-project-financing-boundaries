@@ -1,0 +1,71 @@
+[
+  {
+    "a": 0,
+    "r": 1.01,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 0,
+    "r": 1.5,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 0.1,
+    "r": 1.01,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 0.1,
+    "r": 1.5,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 1,
+    "r": 1.01,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 1,
+    "r": 1.5,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 3,
+    "r": 1.01,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 3,
+    "r": 1.5,
+    "expected": "infeasible because q>p",
+    "actual_infeasible": true
+  },
+  {
+    "a": 0.25,
+    "r": 0.75,
+    "expected": "no nonnegative secured advance",
+    "unconstrained_floor": -0.10000000000000009,
+    "actual_no_nonnegative_advance": true
+  },
+  {
+    "a": 1,
+    "r": 1,
+    "expected": "no nonnegative secured advance",
+    "unconstrained_floor": -0.09999999999999988,
+    "actual_no_nonnegative_advance": true
+  },
+  {
+    "a": 3,
+    "r": 0.75,
+    "expected": "no nonnegative secured advance",
+    "unconstrained_floor": -0.10000000000000142,
+    "actual_no_nonnegative_advance": true
+  }
+]

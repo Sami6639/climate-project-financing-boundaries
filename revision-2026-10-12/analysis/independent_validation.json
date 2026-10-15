@@ -1,0 +1,12 @@
+{
+  "uniform_benchmark_cases": 154,
+  "uniform_max_ramp_formula_gap": 7.542577673547157e-14,
+  "independent_nodal_lp_cases": 154,
+  "nodal_max_formula_gap": 2.171251108198935e-06,
+  "nodal_min_formula_gap": -2.220446049250313e-14,
+  "gaussian_quadrature_benchmark_cases": 36,
+  "gaussian_max_ramp_formula_gap": 2.456368441983159e-15,
+  "boundary_cases": 14,
+  "boundary_pass": true,
+  "central_ramp_target_error": 3.552713678800501e-15
+}

@@ -1,0 +1,25 @@
+exhibit,file,verification_scope
+Table 1,revision-2026-10-12/sources/institutional_claim_register.csv; revision-2026-10-07/data/parameters.json,Documentary anchors separated from scenario assumptions; arithmetic checked
+Table 2,revision-2026-10-07/results/table3_advances.csv,All 9 rows checked against supplied manuscript; exact and ceiling gates retained
+Table 3,interval-extension/theory/central_three_way_comparison.csv,All 9 rows checked against supplied manuscript; original comparator rerun
+Table 4,interval-extension/cost/main_price_examples.csv,All 3 rows checked against supplied manuscript; original cost routines rerun
+Figure 1,revision-2026-10-07/results/figure1.png,Embedded supplied-manuscript PNG exactly matches authoritative generated image
+Figure 2,revision-2026-10-07/results/figure2.png,Embedded supplied-manuscript PNG exactly matches authoritative generated image
+Figure 3,interval-extension/theory/Figure_3_Three_Way_Frontier.png,Embedded supplied-manuscript PNG exactly matches authoritative generated image
+Figure 4,revision-2026-10-07/results/figure4.png,Embedded supplied-manuscript PNG exactly matches authoritative generated image
+Table S1,revision-2026-10-07/data/parameters.json,Notation/evidence classification; not a separate empirical dataset
+Table S2,README.md,Actor/accounting interpretation; no estimated behavioural data
+Table S3,exhibit_file_map.csv,Contribution/evidence cross-reference
+Table S4,revision-2026-10-07/code/reproduce.py,Analytical constraint/decision interpretation; no observed policy ranking
+Table S4a,,Literature interpretation in supplied supplement; no external texts redistributed; not rerun as data
+Table S5,revision-2026-10-12/analysis/new_analysis_summary.json; revision-2026-10-07/results/central_results.json,Local scenario quantities
+Table S6,exhibit_file_map.csv,Historical paths mapped into this package
+Table S7,revision-2026-10-07/results/table2_constraint_failures.csv,Original constraint-failure calculations rerun
+Table S8,revision-2026-10-12/sources/institutional_claim_register.csv,Institutional source claims and missing cash-input boundaries
+Table S9,revision-2026-10-07/results/table5_dispersion.csv,Original dispersion scenarios rerun
+Table S9a,interval-extension/cost/price_region_validation_report.json; interval-extension/cost/purposeful_price_region_checks.csv,Price-region rule checked by original numerical audits; not market estimates
+Table S9b,interval-extension/cost/cost_sensitivity.csv,Five structural cases checked against supplied supplement
+Table S10,README.md,Scope/attribution table; not a numerical result
+Table S11,interval-extension/validation/ramp_equality_and_figure_audit.json,1641 numerical equality cases; analytical proof remains in supplied supplement
+Table S12,interval-extension/validation/gaussian_interval_comparison.csv,All 15 displayed rows checked; original continuum/tail-bound audit rerun
+Table S13,interval-extension/run_summary.json; interval-extension/validation/ramp_equality_and_figure_audit.json,Original case counts and tolerance gates rerun

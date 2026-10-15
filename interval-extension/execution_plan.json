@@ -1,0 +1,160 @@
+{
+  "scripts": [
+    "validation/validate_interval.py",
+    "validation/stress_formula.py",
+    "validation/check_inadmissible.py",
+    "validation/benchmark_comparison.py",
+    "validation/make_interval_figure.py",
+    "cost/cost_comparison.py",
+    "cost/export_tables.py",
+    "theory/single_ramp_optimum.py",
+    "theory/make_three_way_figure.py",
+    "validation/run_strengthened_validation.py",
+    "validation/make_optimized_interval_figure.py",
+    "cost/validate_price_regions.py"
+  ],
+  "generated_outputs": [
+    "validation/stress_results.json",
+    "validation/inadmissible_cases.json",
+    "validation/figure_3_data.csv",
+    "validation/convergence.json",
+    "validation/contract_a1.0.json",
+    "validation/contract_a0.json",
+    "validation/contract_a0.75.json",
+    "validation/contract_a0.5.json",
+    "validation/contract_a0.25.json",
+    "validation/contract_a0.1.json",
+    "validation/benchmark_comparison.json",
+    "validation/Figure_3_Interval_Frontier.png",
+    "cost/cost_table.csv",
+    "cost/cost_results.json",
+    "cost/all_candidate_comparisons.csv",
+    "theory/single_ramp_results.json",
+    "theory/single_ramp_comparison.csv",
+    "theory/central_three_way_comparison.csv",
+    "theory/single_ramp_self_check.json",
+    "theory/Figure_3_Three_Way_Frontier.png",
+    "theory/Figure_3_Three_Way_Frontier.pdf",
+    "theory/Figure_3_three_way_data.csv",
+    "validation/optimized_ramp_checks.json",
+    "validation/optimized_ramp_comparison.csv",
+    "validation/gaussian_interval_certificates.json",
+    "validation/gaussian_interval_comparison.csv",
+    "validation/legacy_hard_validation.json",
+    "validation/audit_crosscheck_Three_Way_Frontier.png",
+    "validation/audit_crosscheck_Three_Way_Frontier.pdf",
+    "validation/audit_crosscheck_data.csv",
+    "validation/audit_crosscheck_selected_values.json",
+    "cost/price_region_validation_report.json",
+    "cost/original_1000_price_region_checks.csv",
+    "cost/purposeful_price_region_checks.csv",
+    "cost/cost_sensitivity.csv",
+    "cost/cost_derivative_checks.csv",
+    "cost/main_price_examples.csv",
+    "cost/price_phase_data.csv",
+    "validation/ramp_equality_and_figure_audit.json",
+    "validation/strengthened_validation_summary.json",
+    "validation/Figure_3_Interval_Frontier.pdf"
+  ],
+  "dependencies": [
+    "contourpy",
+    "cycler",
+    "fonttools",
+    "kiwisolver",
+    "matplotlib",
+    "numpy",
+    "packaging",
+    "pillow",
+    "pyparsing",
+    "python-dateutil",
+    "scipy",
+    "six"
+  ],
+  "random_seeds": {
+    "original_stress_LP": 20261014,
+    "original_cost": 20261014,
+    "independent_ramp": 20261014,
+    "new_cost": 20261014,
+    "single_ramp_formula": "deterministic, no random sampling"
+  },
+  "tolerances": {
+    "baseline_normalized_geometric_LP_absolute": 1e-10,
+    "baseline_cost_absolute_currency": 1e-06,
+    "baseline_cost_relative": 1e-09,
+    "single_ramp_formula_scaled": 2e-10,
+    "independent_ramp_normalized_money": 2e-09,
+    "independent_ramp_normalized_slope": 2e-10,
+    "gaussian_money_and_slope_safety": 2e-09,
+    "gaussian_coefficient_allowance": 2e-13,
+    "gaussian_enclosure_width_strict_upper": 0.075,
+    "cost_objective_and_feasibility_normalized": 1e-08,
+    "cost_optimal_face_normalized": 1e-07,
+    "cost_derivative_relative": 2e-05
+  },
+  "report_checks": [
+    {
+      "path": "validation/legacy_hard_validation.json",
+      "keys": [
+        "all_passed"
+      ],
+      "operator": "equals",
+      "value": true
+    },
+    {
+      "path": "validation/ramp_equality_and_figure_audit.json",
+      "keys": [
+        "all_passed"
+      ],
+      "operator": "equals",
+      "value": true
+    },
+    {
+      "path": "validation/ramp_equality_and_figure_audit.json",
+      "keys": [
+        "equality_cases"
+      ],
+      "operator": "equals",
+      "value": 1641
+    },
+    {
+      "path": "validation/ramp_equality_and_figure_audit.json",
+      "keys": [
+        "figure_rows"
+      ],
+      "operator": "equals",
+      "value": 901
+    },
+    {
+      "path": "validation/ramp_equality_and_figure_audit.json",
+      "keys": [
+        "maximum_figure_error_eur"
+      ],
+      "operator": "maximum",
+      "value": 1e-06
+    },
+    {
+      "path": "validation/ramp_equality_and_figure_audit.json",
+      "keys": [
+        "max_predicted_equality_error_normalized_money"
+      ],
+      "operator": "maximum",
+      "value": 2e-10
+    },
+    {
+      "path": "validation/ramp_equality_and_figure_audit.json",
+      "keys": [
+        "max_independent_implementation_discrepancy_normalized_money"
+      ],
+      "operator": "maximum",
+      "value": 2e-10
+    },
+    {
+      "path": "validation/strengthened_validation_summary.json",
+      "keys": [
+        "all_passed"
+      ],
+      "operator": "equals",
+      "value": true
+    }
+  ]
+}

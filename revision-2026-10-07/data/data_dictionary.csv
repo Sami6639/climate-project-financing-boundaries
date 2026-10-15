@@ -1,0 +1,14 @@
+symbol,value_or_formula,unit,definition,evidence_status
+mu,316912,tCO2e,Organiser inventory,Documentary scale; not estimated physical truth
+B,7925000,EUR,Expected expenditure or available-budget scale,Reported fund scaled to all-in donor model
+p,25,EUR/tCO2e,Derivative cap,Scenario inspired by pledge
+q,18.75,EUR/tCO2e,Required local obligation,"Scenario, fixed before optimisation"
+relative_sd,0.1,fraction,sigma/mu,"Scenario, not an error estimate"
+h,sqrt(3)*mu*relative_sd,tCO2e,Uniform half-width,Derived from scenario
+H,0.9*B,EUR,Secured initial project cash,"Aggregate scenario, not a recipient observation"
+U,1.1*B,EUR,Hard realised donor expenditure cap,Scenario
+kappa,0,fraction,Advance financing loading,Base scenario; positive sensitivities
+V,0,EUR,Deterministic donor cost,Base scenario; positive sensitivities
+C0,(1+kappa)*H+V,EUR,Minimum total donor-cost floor,Derived; only H is initial project cash
+T(y),endogenous schedule,EUR,All-in total donor expenditure,Fixed across physical-emission perturbations
+m,d E[T(e+error)]/de at mu,EUR/tCO2e,Local expected obligation,Not a behavioural response or causal effect

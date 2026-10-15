@@ -1,0 +1,7 @@
+# Software licence scope and third-party material
+
+The accompanying `LICENSE` is the MIT License approved by the author for Sami Küçükoğlu's original software in this repository, including the independent numerical implementations supplied with this revision. It applies to user-authored software and its associated software-use documentation only. This scope statement is separate from the unmodified MIT permission and warranty text. The official text is available at https://opensource.org/license/mit.
+
+It does not grant rights in UEFA, DEKRA, sporting-association, municipal, publisher or other third-party documents; article text; source screenshots; third-party code/dependencies; manuscript prose; or unrelated or jointly owned data. Dependencies retain their own licences. Source URLs, factual summaries and original-source hashes are supplied for verification, without claiming ownership or redistribution permission for the underlying source documents.
+
+No third-party full-text PDFs, HTML snapshots or extracted full text are included in this revision. Follow the source URLs for the authoritative material. A source being public does not establish a licence to redistribute it. The October 7 baseline is preserved as a historical subdirectory. New root packaging and exhibit mapping identify its use in the supplied manuscript without changing its original scientific files or third-party notices.

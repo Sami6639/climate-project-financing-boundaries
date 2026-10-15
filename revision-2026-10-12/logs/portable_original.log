@@ -1,0 +1,45 @@
+{
+  "central": {
+    "uniform_halfwidth_tonnes": 54890.768552826805,
+    "mean_reserve_eur": 771901.432774127,
+    "payment_span_eur": 2058403.8207310052,
+    "advance_90pct_eur": 7132500.0,
+    "minimum_cap_for_90pct_eur": 9190903.820731005,
+    "cap_110pct_eur": 8717500.0,
+    "max_advance_eur": 6659096.179268995,
+    "max_advance_percent": 84.02645021159616,
+    "max_obligation_at_90pct": 14.437764689654491,
+    "exact_cap_ratio_gate": 1.0974008117065144,
+    "no_cap_advance_percent": 90.25991882934856,
+    "span_sd_threshold": 0.07700141167815729,
+    "mean_sd_threshold": 0.10266854890420972,
+    "upper_mean_sd_threshold": 0.10266854890420972
+  },
+  "audit": {
+    "uniform_lp_cases": 540,
+    "uniform_max_gaps_by_n": {
+      "16": 0.015355339059328031,
+      "32": 0.002500000000000231,
+      "64": 0.0006053390593275879,
+      "128": 0.00021645017043848969,
+      "256": 2.7566150224783703e-05,
+      "1024": 2.171251108198935e-06
+    },
+    "ceiling_cases": 32,
+    "ceiling_max_gap": 1.6263945168126792e-06,
+    "gaussian_cases": 36,
+    "gaussian_max_gap": 7.384304224755667e-06,
+    "constructive_cases": 20,
+    "constructed_mean_max_error": 1.1102230246251565e-16,
+    "constructed_marginal_max_error": 1.1102230246251565e-16
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "seconds": 2.8811090590024833,
+    "stochastic_sampling": false,
+    "seed": "Not applicable: no random draws"
+  }
+}

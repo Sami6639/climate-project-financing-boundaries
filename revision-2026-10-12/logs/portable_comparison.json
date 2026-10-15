@@ -1,0 +1,70 @@
+[
+  {
+    "file": "audit_summary.json",
+    "identical": true
+  },
+  {
+    "file": "ceiling_lp_audit.csv",
+    "identical": true
+  },
+  {
+    "file": "central_results.json",
+    "identical": true
+  },
+  {
+    "file": "constructive_audit.csv",
+    "identical": true
+  },
+  {
+    "file": "figure1.png",
+    "identical": true
+  },
+  {
+    "file": "figure1_series.csv",
+    "identical": true
+  },
+  {
+    "file": "figure2.png",
+    "identical": true
+  },
+  {
+    "file": "figure2_series.csv",
+    "identical": true
+  },
+  {
+    "file": "figure3.png",
+    "identical": true
+  },
+  {
+    "file": "figure3_series.csv",
+    "identical": true
+  },
+  {
+    "file": "figure4.png",
+    "identical": true
+  },
+  {
+    "file": "figure4_series.csv",
+    "identical": true
+  },
+  {
+    "file": "gaussian_lp_audit.csv",
+    "identical": true
+  },
+  {
+    "file": "table2_constraint_failures.csv",
+    "identical": true
+  },
+  {
+    "file": "table3_advances.csv",
+    "identical": true
+  },
+  {
+    "file": "table5_dispersion.csv",
+    "identical": true
+  },
+  {
+    "file": "uniform_lp_audit.csv",
+    "identical": true
+  }
+]

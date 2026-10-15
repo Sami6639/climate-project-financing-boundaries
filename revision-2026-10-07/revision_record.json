@@ -1,0 +1,7 @@
+{
+  "version": "2026-10-07",
+  "manuscript": "Advance Finance and Exposure Limits in Emissions-Linked Funding: An Analytical Framework Illustrated by UEFA EURO 2024",
+  "earlier_analysis_commit": "4811387251b118b2fbfa6bca9076bc454c54c233",
+  "scope": "Documented inputs, deterministic analytical reproduction, numerical audit records, tables and figures for the current manuscript.",
+  "relation_to_earlier_analysis": "Separate implementation and output numbering; use this folder for the revised manuscript."
+}

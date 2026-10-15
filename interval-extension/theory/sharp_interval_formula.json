@@ -1,0 +1,122 @@
+{
+  "status": "Analytic proof complete and independently audited; validator reports 44 global LP brackets and 112 exact constructions passed",
+  "scope": "Fixed h>0, p>0, 0<=q<=p, d>=0; budget ceiling at every centre; monotone globally p-Lipschitz bounded payments",
+  "formula": {
+    "W": "2*h",
+    "L": "2*d",
+    "m": "W*q",
+    "n": "floor(L/W)",
+    "ell": "L-n*W",
+    "D_star": "(n+1)*m+max(0,m-p*(W-ell))",
+    "R_star": "h*q*q/p+2*d*q",
+    "Hmax": "(min(Bbar-R_star,U-D_star)-V)/(1+kappa), when numerator>=0"
+  },
+  "parameters": {
+    "p": 25.0,
+    "q": 18.75,
+    "mu": 316912.0,
+    "h": 54890.768552826805,
+    "Bbar": 7925000.0,
+    "U": 8717500.0,
+    "kappa": 0,
+    "V": 0
+  },
+  "scenarios": [
+    {
+      "d_over_h": 0,
+      "minimum_reserve": 771901.432774127,
+      "minimum_span": 2058403.8207310052,
+      "Hmax": 6659096.179268995,
+      "Hmax_budget_share": 0.8402645021159616,
+      "budget_deficit_at_90pct": -20598.56722587347,
+      "cap_deficit_at_90pct": 473403.8207310047
+    },
+    {
+      "d_over_h": 0.1,
+      "minimum_reserve": 977741.8148472275,
+      "minimum_span": 2058403.8207310052,
+      "Hmax": 6659096.179268995,
+      "Hmax_budget_share": 0.8402645021159616,
+      "budget_deficit_at_90pct": 185241.8148472272,
+      "cap_deficit_at_90pct": 473403.8207310047
+    },
+    {
+      "d_over_h": 0.2,
+      "minimum_reserve": 1183582.196920328,
+      "minimum_span": 2058403.8207310052,
+      "Hmax": 6659096.179268995,
+      "Hmax_budget_share": 0.8402645021159616,
+      "budget_deficit_at_90pct": 391082.19692032784,
+      "cap_deficit_at_90pct": 473403.8207310047
+    },
+    {
+      "d_over_h": 0.25,
+      "minimum_reserve": 1286502.3879568782,
+      "minimum_span": 2058403.8207310052,
+      "Hmax": 6638497.612043122,
+      "Hmax_budget_share": 0.8376653138224759,
+      "budget_deficit_at_90pct": 494002.38795687817,
+      "cap_deficit_at_90pct": 473403.8207310047
+    },
+    {
+      "d_over_h": 0.5,
+      "minimum_reserve": 1801103.3431396296,
+      "minimum_span": 2744538.4276413405,
+      "Hmax": 5972961.5723586595,
+      "Hmax_budget_share": 0.753686002821282,
+      "budget_deficit_at_90pct": 1008603.3431396298,
+      "cap_deficit_at_90pct": 1159538.4276413396
+    },
+    {
+      "d_over_h": 0.75,
+      "minimum_reserve": 2315704.298322381,
+      "minimum_span": 3430673.0345516754,
+      "Hmax": 5286826.965448325,
+      "Hmax_budget_share": 0.6671075035266024,
+      "budget_deficit_at_90pct": 1523204.2983223815,
+      "cap_deficit_at_90pct": 1845673.0345516764
+    },
+    {
+      "d_over_h": 1,
+      "minimum_reserve": 2830305.253505132,
+      "minimum_span": 4116807.6414620103,
+      "Hmax": 4600692.35853799,
+      "Hmax_budget_share": 0.580529004231923,
+      "budget_deficit_at_90pct": 2037805.253505133,
+      "cap_deficit_at_90pct": 2531807.6414620094
+    },
+    {
+      "d_over_h": 1.25,
+      "minimum_reserve": 3344906.208687884,
+      "minimum_span": 4116807.641462011,
+      "Hmax": 4580093.791312116,
+      "Hmax_budget_share": 0.5779298159384374,
+      "budget_deficit_at_90pct": 2552406.208687883,
+      "cap_deficit_at_90pct": 2531807.6414620113
+    },
+    {
+      "d_over_h": 1.5,
+      "minimum_reserve": 3859507.163870635,
+      "minimum_span": 4802942.248372345,
+      "Hmax": 3914557.751627655,
+      "Hmax_budget_share": 0.4939505049372435,
+      "budget_deficit_at_90pct": 3067007.1638706345,
+      "cap_deficit_at_90pct": 3217942.248372346
+    },
+    {
+      "d_over_h": 2,
+      "minimum_reserve": 4888709.074236138,
+      "minimum_span": 6175211.462193016,
+      "Hmax": 2542288.537806984,
+      "Hmax_budget_share": 0.3207935063478844,
+      "budget_deficit_at_90pct": 4096209.074236138,
+      "cap_deficit_at_90pct": 4590211.462193016
+    }
+  ],
+  "reference_only_regimes": {
+    "R_mid": "h*q*q/p+d*q",
+    "exact_mean": "q<=p and U-C>=D_star and C+R_mid<=B<=U-R_mid",
+    "ceiling": "q<=p and U-C>=D_star and C+R_mid<=Bbar",
+    "note": "No exact constant mean across nondegenerate interval when q>0"
+  }
+}

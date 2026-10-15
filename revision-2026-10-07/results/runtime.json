@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "seconds": 2.967438174000108,
+  "stochastic_sampling": false,
+  "seed": "Not applicable: no random draws"
+}

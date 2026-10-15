@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "positive_control_returncode": 0,
+  "negative_cases": 12,
+  "results": [
+    {
+      "case": "construction_residual",
+      "returncode": 1,
+      "message": "FAIL: Construction case 0: mass_error=0.0001",
+      "passed": true
+    },
+    {
+      "case": "missing_construction_case",
+      "returncode": 1,
+      "message": "FAIL: Expected all 112 construction cases",
+      "passed": true
+    },
+    {
+      "case": "LP_bracket_residual",
+      "returncode": 1,
+      "message": "FAIL: LP case 0: theory_above_upper=0.0001",
+      "passed": true
+    },
+    {
+      "case": "infeasibility_failure",
+      "returncode": 1,
+      "message": "FAIL: Infeasibility case 0 failed",
+      "passed": true
+    },
+    {
+      "case": "nonfinite_number",
+      "returncode": 1,
+      "message": "FAIL: Non-finite number in validation/stress_results.json.exact_construction[0].reserve_error",
+      "passed": true
+    },
+    {
+      "case": "cost_objective_mismatch",
+      "returncode": 1,
+      "message": "FAIL: Cost scenario 0: independent LP mismatch",
+      "passed": true
+    },
+    {
+      "case": "single_ramp_formula_failure",
+      "returncode": 1,
+      "message": "FAIL: Single-ramp formula ordering error exceeds tolerance",
+      "passed": true
+    },
+    {
+      "case": "independent_ramp_integral_failure",
+      "returncode": 1,
+      "message": "FAIL: Independent ramp integration mismatch",
+      "passed": true
+    },
+    {
+      "case": "Gaussian_continuum_failure",
+      "returncode": 1,
+      "message": "FAIL: Gaussian continuum marginal certificate failed",
+      "passed": true
+    },
+    {
+      "case": "price_region_face_failure",
+      "returncode": 1,
+      "message": "FAIL: Price-region tolerance violation: max_normalized_optimal_face_error",
+      "passed": true
+    },
+    {
+      "case": "primary_figure_failure",
+      "returncode": 1,
+      "message": "FAIL: Report check failed: validation/ramp_equality_and_figure_audit.json:['maximum_figure_error_eur'] = 1.0",
+      "passed": true
+    },
+    {
+      "case": "python_assertion_optimization",
+      "returncode": 1,
+      "message": "FAIL: Python optimization must be disabled so original assertion checks cannot be skipped.",
+      "passed": true
+    }
+  ]
+}

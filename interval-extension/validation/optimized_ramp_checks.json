@@ -1,0 +1,2680 @@
+{
+  "summary": {
+    "seed": 20261014,
+    "comparison_rows": 189,
+    "independent_random_cases": 240,
+    "targeted_boundary_cases": 94,
+    "interior_optima_found": 1,
+    "max_dense_search_excess_over_formula": 2.220446049250313e-16,
+    "max_independent_integral_error": 5.329070518200751e-15,
+    "normalized_money_tolerance": 2e-09,
+    "normalized_slope_tolerance": 2e-10,
+    "negative_capacity_not_clipped": -0.2222222222222223,
+    "zero_noise_treated_separately": true
+  },
+  "checks": [
+    {
+      "scenario": "ramp_0.0_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.0_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.7755575615628914e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 5.551115123125783e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 5.551115123125783e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 5.551115123125783e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.1_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.163336342344337e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.163336342344337e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.163336342344337e-17,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.25_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.5_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.220446049250313e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 2.220446049250313e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.75_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 3.3306690738754696e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 3.3306690738754696e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 3.3306690738754696e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 1.1102230246251565e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 4.440892098500626e-16,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_0.9_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.1_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.1_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.1_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.25_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.25_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.25_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.75_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.75_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_0.75_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_1.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_1.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_1.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_1.5_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_1.5_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_1.5_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_2.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_2.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_2.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_3.0_budget",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_3.0_exposure",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "ramp_1.0_3.0_joint",
+      "expected": "continuum target; exact mean; class upper bound; conservative dominance",
+      "error": 0.0,
+      "unit": "normalized slope or p*h (separately bounded)",
+      "threshold": 2e-09,
+      "passed": true
+    },
+    {
+      "scenario": "interior_crossing",
+      "expected": "r/p=0.68; mean and span jointly bind",
+      "error": 1.1102230246251565e-16,
+      "unit": "slope/p",
+      "threshold": 1e-10,
+      "passed": true
+    }
+  ],
+  "boundary_cases": [
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 0.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 0.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 0.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 0.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 1.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 1.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 1.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 1.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 1.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 1.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 2.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 2.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 2.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 2.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 2.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 2.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 3.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 3.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 3.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.0,
+      "delta_over_h": 3.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 4.0389678347315804e-28,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.749999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 1.7763568394002505e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.749999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.6155871338926322e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.75,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.75,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 4.8467614016778965e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.750000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 3.552713678800501e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.750000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 7.105427357601002e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 0.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 3.2311742677852644e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 1.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 1.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 1.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 1.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 3.2311742677852644e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 1.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 1.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 6.462348535570529e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 2.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 3.552713678800501e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 2.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 2.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 2.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 6.462348535570529e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 2.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 2.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.2924697071141057e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 3.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 3.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.2924697071141057e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 3.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 7.105427357601002e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.25,
+      "delta_over_h": 3.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.9387045606711586e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 8.881784197001252e-16,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.249999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.249999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.25,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.25,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 3.2311742677852644e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.250000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.250000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 9.693522803355793e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 7.105427357601002e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 3.552713678800501e-15,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 0.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 1.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 1.4210854715202004e-14,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 1.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 1.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 7.105427357601002e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 1.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.9387045606711586e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 1.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 1.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 5.169878828456423e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 2.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 2.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 3.877409121342317e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 2.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 2.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 3.877409121342317e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 2.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 2.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 7.754818242684634e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 3.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 3.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 3.552713678800501e-15,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 3.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 0.75,
+      "delta_over_h": 3.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 2.5849394142282115e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 3.552713678800501e-15,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 0.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 0.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1e-09,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 7.105427357601002e-15,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1e-09,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 3.2311742677852644e-27,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 0.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 2.842170943040401e-14,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 3.552713678800501e-15,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 0.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.2924697071141057e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 1.2924697071141057e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 1.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 2.5849394142282115e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 2.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 1.4210854715202004e-14,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 2.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 2.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 2.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 2.5849394142282115e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 2.999999999,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 2.999999999,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 5.169878828456423e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 3.0,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 0.0,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 3.0,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 5.169878828456423e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 3.552713678800501e-15,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 3.000000001,
+      "h": 1.0,
+      "p": 25.0,
+      "mean_error_currency": 2.842170943040401e-14,
+      "mean_tolerance_currency": 5.0000000000000004e-08,
+      "marginal_shortfall_currency_per_emissions": 0.0,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    },
+    {
+      "q_over_p": 1.0,
+      "delta_over_h": 3.000000001,
+      "h": 1e-12,
+      "p": 25.0,
+      "mean_error_currency": 7.754818242684634e-26,
+      "mean_tolerance_currency": 5.0000000000000005e-20,
+      "marginal_shortfall_currency_per_emissions": 3.552713678800501e-15,
+      "marginal_tolerance_currency_per_emissions": 5e-09,
+      "joint_gate_error_currency": 0.0,
+      "passed": true
+    }
+  ],
+  "interior_crossing": {
+    "r": 0.6800000000000002,
+    "start": 0.23529411764705932,
+    "width": 3.129411764705882,
+    "span": 2.128,
+    "reserve": 1.5985882352941179,
+    "c": 3.0,
+    "candidates": [
+      0.6,
+      0.6800000000000002,
+      1
+    ]
+  }
+}

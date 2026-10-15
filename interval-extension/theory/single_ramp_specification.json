@@ -1,0 +1,32 @@
+{
+  "version": "2026-10-14",
+  "family": "T(y)=c+min(K,max(0,r*(y-t)))",
+  "optimized_variables": ["c", "K", "r", "t", "H"],
+  "domain": "h>0,p>0,delta>=0,0<=q<=p,kappa>=0,V>=0,H>=0",
+  "reporting_law": "epsilon~Uniform[-h,h]; fixed h at every centre",
+  "centres": "e in [mu-delta,mu+delta]",
+  "requirements": ["d E_e[T]/de >= q at every centre", "E_e[T] <= B at every centre", "c >= (1+kappa)*H+V", "c+K <= U", "0<r<=p,K>=0; constants allowed at q=0"],
+  "W": "2*h",
+  "L": "2*delta",
+  "s": "W*q/r",
+  "t": "mu-delta-h+W-s",
+  "K": "max(W*q,r*(L-W)+2*W*q)",
+  "R_short": "q*L+W*q*q/(2*r), valid L<=W-W*q/r",
+  "R_long": "r*(L-W)+2*W*q-W*q*q/(2*r), valid L>=W-W*q/r",
+  "candidate_slopes": ["q", "p", "W*q*q/(2*(U-B)) when U>B, q<=candidate<=p, L>=W-W*q/candidate"],
+  "H_ramp": "(max_candidates min(B-R,U-K)-V)/(1+kappa)",
+  "q_zero": "H=(min(B,U)-V)/(1+kappa); constant contract",
+  "negative_capacity": "No feasible nonnegative advance; never truncate to zero and claim feasibility",
+  "H_global": "(min(B-(h*q*q/p+2*delta*q),U-D_delta)-V)/(1+kappa)",
+  "D_delta": "(floor(delta/h)+1)*2*h*q+max(0,2*h*q-p*(2*h-(2*delta-floor(delta/h)*2*h)))",
+  "H_conservative": "(min(B-q*(h+2*delta),U-2*q*(h+delta))-V)/(1+kappa)",
+  "zero_gap_regions_for_0_lt_q_lt_p": [
+    "delta/h<=1-q/p, every B,U",
+    "1-q/p<delta/h<1 and U-B<=h*q*q/p",
+    "delta/h is an integer >=1 and U-B<=h*q"
+  ],
+  "central_inputs": {"mu":316912,"h_formula":"sqrt(3)*0.1*mu","p":25,"q":18.75,"B":7925000,"U":8717500,"kappa":0,"V":0},
+  "central_delta_over_h": [0,0.1,0.25,0.5,0.75,1,1.25,1.5,1.75,2,2.25,3],
+  "self_check": {"command":"python theory/single_ramp_optimum.py","rows":517,"scaled_tolerance":2e-10,"random_seed":null},
+  "scope": "Analytical single-ramp optimization within the fixed-width uniform model; no unsupported general-method novelty or distributional robustness claim"
+}

@@ -1,0 +1,18 @@
+{
+  "uniform_lp_cases": 540,
+  "uniform_max_gaps_by_n": {
+    "16": 0.015355339059328031,
+    "32": 0.002500000000000231,
+    "64": 0.0006053390593275879,
+    "128": 0.00021645017043848969,
+    "256": 2.7566150224783703e-05,
+    "1024": 2.171251108198935e-06
+  },
+  "ceiling_cases": 32,
+  "ceiling_max_gap": 1.6263945168126792e-06,
+  "gaussian_cases": 36,
+  "gaussian_max_gap": 7.384304224755667e-06,
+  "constructive_cases": 20,
+  "constructed_mean_max_error": 1.1102230246251565e-16,
+  "constructed_marginal_max_error": 1.1102230246251565e-16
+}

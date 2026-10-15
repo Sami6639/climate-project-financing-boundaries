@@ -1,0 +1,7 @@
+case,regime,lower_margin,upper_margin,span_margin,maximum_obligation
+Lower mean,Exact,-0.15,1.65,1,0.31622776601683794
+Lower mean,Ceiling,-0.15,Not required,1,0.31622776601683794
+Upper mean,Exact,1.65,-0.1499999999999999,1,0.31622776601683805
+Upper mean,Ceiling,1.65,Not required,1,1
+Peak span,Exact,0.125,0.125,-0.25,0.375
+Peak span,Ceiling,0.125,Not required,-0.25,0.375

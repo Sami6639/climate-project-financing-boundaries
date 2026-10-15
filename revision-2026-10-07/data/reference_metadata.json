@@ -1,0 +1,1692 @@
+[
+  {
+    "reference": "Angelsen, A. (2017). REDD+ as result-based aid: General lessons and bilateral agreements of Norway. Review of Development Economics, 21(2), 237–264. https://doi.org/10.1111/rode.12271",
+    "status": "metadata_retrieved",
+    "doi": "10.1111/rode.12271",
+    "title": [
+      "REDD+ as Result‐based Aid: General Lessons and Bilateral Agreements of Norway"
+    ],
+    "authors": [
+      {
+        "given": "Arild",
+        "family": "Angelsen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Economics and Business Norwegian University of Life Sciences Ås Norway"
+          },
+          {
+            "name": "Center for International Forestry Research (CIFOR) Bogor Indonesia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Review of Development Economics"
+    ],
+    "volume": "21",
+    "issue": "2",
+    "page": "237-264",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          19
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Birulin, O., & Izmalkov, S. (2022). On advance payments in tenders with budget constrained contractors. The RAND Journal of Economics, 53(4), 733–762. https://doi.org/10.1111/1756-2171.12428",
+    "status": "metadata_retrieved",
+    "doi": "10.1111/1756-2171.12428",
+    "title": [
+      "On advance payments in tenders with budget constrained contractors"
+    ],
+    "authors": [
+      {
+        "given": "Oleksii",
+        "family": "Birulin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Sydney University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sergei",
+        "family": "Izmalkov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The New Economic School"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "The RAND Journal of Economics"
+    ],
+    "volume": "53",
+    "issue": "4",
+    "page": "733-762",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          10
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Bushnell, J. B. (2017). (Overly) great expectations: Carbon pricing and revenue uncertainty in California. National Tax Journal, 70(4), 837–854. https://doi.org/10.17310/ntj.2017.4.07",
+    "doi": "10.17310/ntj.2017.4.07",
+    "status": "metadata_retrieved",
+    "title": [
+      "(OVERLY) GREAT EXPECTATIONS"
+    ],
+    "authors": [
+      {
+        "given": "James B.",
+        "family": "Bushnell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "National Tax Journal"
+    ],
+    "volume": "70",
+    "issue": "4",
+    "page": "837-854",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          1
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Caldecott, B., Clark, A., Harnett, E., & Liu, F. (2026). How sustainable finance creates impact: Transmission mechanisms to the real economy. Review of World Economics, 162(1), 87–119. https://doi.org/10.1007/s10290-024-00541-9",
+    "status": "metadata_retrieved",
+    "doi": "10.1007/s10290-024-00541-9",
+    "title": [
+      "How sustainable finance creates impact: transmission mechanisms to the real economy"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8846-9847",
+        "authenticated-orcid": false,
+        "given": "Ben",
+        "family": "Caldecott",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alex",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Harnett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felicia",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Review of World Economics"
+    ],
+    "volume": "162",
+    "issue": "1",
+    "page": "87-119",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          23
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Cavallin Toscani, A., Macchion, L., Stoppato, A., & Vinelli, A. (2022). How to assess events’ environmental impacts: a uniform life cycle approach. Journal of Sustainable Tourism, 30(1), 240–257. https://doi.org/10.1080/09669582.2021.1874397",
+    "status": "metadata_retrieved",
+    "doi": "10.1080/09669582.2021.1874397",
+    "title": [
+      "How to assess events’ environmental impacts: a uniform life cycle approach"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6245-9843",
+        "authenticated-orcid": false,
+        "given": "Antonio",
+        "family": "Cavallin Toscani",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Management and Engineering, University of Padova, Vicenza, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laura",
+        "family": "Macchion",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Management and Engineering, University of Padova, Vicenza, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anna",
+        "family": "Stoppato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Engineering, University of Padova, Padova, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrea",
+        "family": "Vinelli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Management and Engineering, University of Padova, Vicenza, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Sustainable Tourism"
+    ],
+    "volume": "30",
+    "issue": "1",
+    "page": "240-257",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          19
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Chaigneau, P., Edmans, A., & Gottlieb, D. (2018). Does improved information improve incentives? Journal of Financial Economics, 130(2), 291–307. https://doi.org/10.1016/j.jfineco.2018.05.002",
+    "status": "metadata_retrieved",
+    "doi": "10.1016/j.jfineco.2018.05.002",
+    "title": [
+      "Does improved information improve incentives?"
+    ],
+    "authors": [
+      {
+        "given": "Pierre",
+        "family": "Chaigneau",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alex",
+        "family": "Edmans",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Gottlieb",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Financial Economics"
+    ],
+    "volume": "130",
+    "issue": "2",
+    "page": "291-307",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Cheung, K. C., He, W., & Wang, H. (2023). Multi-constrained optimal reinsurance model from the duality perspectives. Insurance: Mathematics and Economics, 113, 199–214. https://doi.org/10.1016/j.insmatheco.2023.08.003",
+    "status": "metadata_retrieved",
+    "doi": "10.1016/j.insmatheco.2023.08.003",
+    "title": [
+      "Multi-constrained optimal reinsurance model from the duality perspectives"
+    ],
+    "authors": [
+      {
+        "given": "Ka Chun",
+        "family": "Cheung",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0447-2705",
+        "authenticated-orcid": false,
+        "given": "Wanting",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "He",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Insurance: Mathematics and Economics"
+    ],
+    "volume": "113",
+    "issue": null,
+    "page": "199-214",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Desjardins, M., & Sinclair-Desgagné, B. (2025). Internal carbon pricing in the multidivisional firm. Environmental and Resource Economics, 88(8), 2029–2057. https://doi.org/10.1007/s10640-025-00999-7",
+    "doi": "10.1007/s10640-025-00999-7",
+    "status": "metadata_retrieved",
+    "title": [
+      "Internal Carbon Pricing in the Multidivisional Firm"
+    ],
+    "authors": [
+      {
+        "given": "Manon",
+        "family": "Desjardins",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7316-1444",
+        "authenticated-orcid": false,
+        "given": "Bernard",
+        "family": "Sinclair-Desgagné",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Environmental and Resource Economics"
+    ],
+    "volume": "88",
+    "issue": "8",
+    "page": "2029-2057",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          24
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Fußball-Verband Mittelrhein. (2024, August 1). Klimafonds der UEFA EURO 2024: Nachhaltiger Effekt für Amateurvereine. https://www.fvm.de/news/uebersicht/detailseite/klimafond-der-uefa-euro-2024-nachhaltiger-effekt-der-euro-2024-fuer-amateurvereine/",
+    "status": "non_doi"
+  },
+  {
+    "reference": "Goldman, J. S. W., Servi, J., Vosper, S., & Larcom, S. T. (2026). A framework for assessing climate costs and economic benefits of major entertainment events. Communications Sustainability, 1(1), Article 110. https://doi.org/10.1038/s44458-026-00112-z",
+    "status": "metadata_retrieved",
+    "doi": "10.1038/s44458-026-00112-z",
+    "title": [
+      "A framework for assessing climate costs and economic benefits of major entertainment events"
+    ],
+    "authors": [
+      {
+        "given": "Jackson S. W.",
+        "family": "Goldman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jascha",
+        "family": "Servi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sam",
+        "family": "Vosper",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0029-3264",
+        "authenticated-orcid": false,
+        "given": "Shaun T.",
+        "family": "Larcom",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Communications Sustainability"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "page": null,
+    "article-number": "110",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Gorbach, O. G., Kost, C., & Pickett, C. (2022). Review of internal carbon pricing and the development of a decision process for the identification of promising internal pricing methods for an organisation. Renewable and Sustainable Energy Reviews, 154, Article 111745. https://doi.org/10.1016/j.rser.2021.111745",
+    "status": "metadata_retrieved",
+    "doi": "10.1016/j.rser.2021.111745",
+    "title": [
+      "Review of internal carbon pricing and the development of a decision process for the identification of promising Internal Pricing Methods for an Organisation"
+    ],
+    "authors": [
+      {
+        "given": "O.G.",
+        "family": "Gorbach",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Kost",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Pickett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Renewable and Sustainable Energy Reviews"
+    ],
+    "volume": "154",
+    "issue": null,
+    "page": "111745",
+    "article-number": "111745",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Gunnemyr, M., & Brülde, B. (2026). From footprints to impact and back again: Calculating corporate climate contributions. Politics, Philosophy & Economics. Advance online publication. https://doi.org/10.1177/1470594x251414938",
+    "status": "metadata_retrieved",
+    "doi": "10.1177/1470594x251414938",
+    "title": [
+      "From footprints to impact and back again: Calculating corporate climate contributions"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9060-1242",
+        "authenticated-orcid": false,
+        "given": "Mattias",
+        "family": "Gunnemyr",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Gothenburg"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4481-7253",
+        "authenticated-orcid": false,
+        "given": "Bengt",
+        "family": "Brülde",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Gothenburg"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Politics, Philosophy &amp; Economics"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": "1470594X251414938",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          13
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Innes, R. D. (1990). Limited liability and incentive contracting with ex-ante action choices. Journal of Economic Theory, 52(1), 45–67. https://doi.org/10.1016/0022-0531(90)90066-s",
+    "status": "metadata_retrieved",
+    "doi": "10.1016/0022-0531(90)90066-s",
+    "title": [
+      "Limited liability and incentive contracting with ex-ante action choices"
+    ],
+    "authors": [
+      {
+        "given": "Robert D",
+        "family": "Innes",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Economic Theory"
+    ],
+    "volume": "52",
+    "issue": "1",
+    "page": "45-67",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1990,
+          10
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Jewitt, I., Kadan, O., & Swinkels, J. M. (2008). Moral hazard with bounded payments. Journal of Economic Theory, 143(1), 59–82. https://doi.org/10.1016/j.jet.2007.12.004",
+    "doi": "10.1016/j.jet.2007.12.004",
+    "status": "metadata_retrieved",
+    "title": [
+      "Moral hazard with bounded payments"
+    ],
+    "authors": [
+      {
+        "given": "Ian",
+        "family": "Jewitt",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ohad",
+        "family": "Kadan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeroen M.",
+        "family": "Swinkels",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Economic Theory"
+    ],
+    "volume": "143",
+    "issue": "1",
+    "page": "59-82",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          11
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Lo, A. (2017). A Neyman–Pearson perspective on optimal reinsurance with constraints. ASTIN Bulletin, 47(2), 467–499. https://doi.org/10.1017/asb.2016.42",
+    "status": "metadata_retrieved",
+    "doi": "10.1017/asb.2016.42",
+    "title": [
+      "A NEYMAN-PEARSON PERSPECTIVE ON OPTIMAL REINSURANCE WITH CONSTRAINTS"
+    ],
+    "authors": [
+      {
+        "given": "Ambrose",
+        "family": "Lo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "ASTIN Bulletin"
+    ],
+    "volume": "47",
+    "issue": "2",
+    "page": "467-499",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          18
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Matthey, M. A., Hollis, A., Brandi, C., Kobiela, G., Roth, B., & Silberberger, M. (2025). Climate impact auctions: An underused tool for green subsidies in the Global South. Climate Policy, 25(5), 806–814. https://doi.org/10.1080/14693062.2024.2411319",
+    "doi": "10.1080/14693062.2024.2411319",
+    "status": "metadata_retrieved",
+    "title": [
+      "Climate impact auctions: an underused tool for green subsidies in the Global South"
+    ],
+    "authors": [
+      {
+        "given": "Max Alexander",
+        "family": "Matthey",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Witten/Herdecke University",
+            "place": [
+              "Witten, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Aidan",
+        "family": "Hollis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Calgary",
+            "place": [
+              "Calgary, Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Clara",
+        "family": "Brandi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "German Institute of Development and Sustainability (IDOS)",
+            "place": [
+              "Bonn, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Georg",
+        "family": "Kobiela",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bellona Deutschland gGmbH",
+            "place": [
+              "Berlin, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Benjamin",
+        "family": "Roth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Friedrich-Alexander-Universität Erlangen",
+            "place": [
+              "Erlangen, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Magdalene",
+        "family": "Silberberger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Witten/Herdecke University",
+            "place": [
+              "Witten, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Climate Policy"
+    ],
+    "volume": "25",
+    "issue": "5",
+    "page": "806-814",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          15
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Morita, K., & Matsumoto, K. (2023). Challenges and lessons learned for REDD+ finance and its governance. Carbon Balance and Management, 18(1), Article 8. https://doi.org/10.1186/s13021-023-00228-y",
+    "status": "metadata_retrieved",
+    "doi": "10.1186/s13021-023-00228-y",
+    "title": [
+      "Challenges and lessons learned for REDD+ finance and its governance"
+    ],
+    "authors": [
+      {
+        "given": "Kanako",
+        "family": "Morita",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ken’ichi",
+        "family": "Matsumoto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Carbon Balance and Management"
+    ],
+    "volume": "18",
+    "issue": "1",
+    "page": null,
+    "article-number": "8",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          18
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "O'Keeffe, M., & Brander, M. (2026). A comparison of methodologies for avoided emissions quantification. Journal of Cleaner Production, 544, Article 147672. https://doi.org/10.1016/j.jclepro.2026.147672",
+    "status": "metadata_retrieved",
+    "doi": "10.1016/j.jclepro.2026.147672",
+    "title": [
+      "A comparison of methodologies for avoided emissions quantification"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-0475-4203",
+        "authenticated-orcid": false,
+        "given": "Michelle",
+        "family": "O'Keeffe",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew",
+        "family": "Brander",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Cleaner Production"
+    ],
+    "volume": "544",
+    "issue": null,
+    "page": "147672",
+    "article-number": "147672",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Poblete, J., & Spulber, D. (2012). The form of incentive contracts: Agency with moral hazard, risk neutrality, and limited liability. The RAND Journal of Economics, 43(2), 215–234. https://doi.org/10.1111/j.1756-2171.2012.00163.x",
+    "status": "metadata_retrieved",
+    "doi": "10.1111/j.1756-2171.2012.00163.x",
+    "title": [
+      "The form of incentive contracts: agency with moral hazard, risk neutrality, and limited liability"
+    ],
+    "authors": [
+      {
+        "given": "Joaquín",
+        "family": "Poblete",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Spulber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "The RAND Journal of Economics"
+    ],
+    "volume": "43",
+    "issue": "2",
+    "page": "215-234",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Probst, B. S., Toetzke, M., Kontoleon, A., Díaz Anadón, L., Minx, J. C., Haya, B. K., Schneider, L., Trotter, P. A., West, T. A. P., Gill-Wiehl, A., & Hoffmann, V. H. (2024). Systematic assessment of the achieved emission reductions of carbon crediting projects. Nature Communications, 15(1), Article 9562. https://doi.org/10.1038/s41467-024-53645-z",
+    "status": "metadata_retrieved",
+    "doi": "10.1038/s41467-024-53645-z",
+    "title": [
+      "Systematic assessment of the achieved emission reductions of carbon crediting projects"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1149-8938",
+        "authenticated-orcid": false,
+        "given": "Benedict S.",
+        "family": "Probst",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1153-2702",
+        "authenticated-orcid": false,
+        "given": "Malte",
+        "family": "Toetzke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4769-898X",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Kontoleon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2688-118X",
+        "authenticated-orcid": false,
+        "given": "Laura",
+        "family": "Díaz Anadón",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2862-0178",
+        "authenticated-orcid": false,
+        "given": "Jan C.",
+        "family": "Minx",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7010-3908",
+        "authenticated-orcid": false,
+        "given": "Barbara K.",
+        "family": "Haya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5704-0965",
+        "authenticated-orcid": false,
+        "given": "Lambert",
+        "family": "Schneider",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philipp A.",
+        "family": "Trotter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3896-6516",
+        "authenticated-orcid": false,
+        "given": "Thales A. P.",
+        "family": "West",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3908-7903",
+        "authenticated-orcid": false,
+        "given": "Annelise",
+        "family": "Gill-Wiehl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5519-7347",
+        "authenticated-orcid": false,
+        "given": "Volker H.",
+        "family": "Hoffmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Nature Communications"
+    ],
+    "volume": "15",
+    "issue": "1",
+    "page": null,
+    "article-number": "9562",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          14
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Raina, N., Zavalloni, M., & Viaggi, D. (2024). Incentive mechanisms of carbon farming contracts: A systematic mapping study. Journal of Environmental Management, 352, Article 120126. https://doi.org/10.1016/j.jenvman.2024.120126",
+    "status": "metadata_retrieved",
+    "doi": "10.1016/j.jenvman.2024.120126",
+    "title": [
+      "Incentive mechanisms of carbon farming contracts: A systematic mapping study"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7617-4731",
+        "authenticated-orcid": false,
+        "given": "Nidhi",
+        "family": "Raina",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6291-7653",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Zavalloni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9503-2977",
+        "authenticated-orcid": false,
+        "given": "Davide",
+        "family": "Viaggi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Journal of Environmental Management"
+    ],
+    "volume": "352",
+    "issue": null,
+    "page": "120126",
+    "article-number": "120126",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "published-online": null
+  },
+  {
+    "reference": "Reich, J., & Weißleder, M. (2024). Klimastudie über die Durchführung der UEFA EURO 2024. DEKRA Assurance Services GmbH. https://www.uni-bielefeld.de/fakultaeten/sportwissenschaft/arbeitsbereiche/ab-iii/forschung/evaluationeuro2024/Ex-post_Klimastudie_UEFA-EURO-2024.pdf",
+    "status": "non_doi"
+  },
+  {
+    "reference": "Stahl, H., Cames, M., & Wagner, T. (2022). Konzept- und Machbarkeitsstudie klimaneutrale UEFA EURO 2024: Schlussbericht. Öko-Institut e.V. https://www.oeko.de/fileadmin/oekodoc/Klimaneutrale_EURO2024.pdf",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (n.d.-a). Klimaschutzprogramm der UEFA EURO 2024: Richtlinien zu Fördermitteln für den Klimaschutz. Retrieved October 6, 2026, from https://editorial.uefa.com/resources/0288-19bd443cdc66-b6baa12522d2-1000/uefa_euro_2024_climate_forderrichtlinien_final.pdf",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (n.d.-b). UEFA EURO 2024 Klimafonds FAQ. Retrieved October 6, 2026, from https://editorial.uefa.com/resources/0288-19bd422e1de6-291beb7a6d4b-1000/climate_fund_faq.pdf",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (2024a, January 8). EURO 2024 climate fund: Apply from 8 January 2024. https://www.uefa.com/uefaeuro/history/news/0289-19e3ea06a38d-cd301f5c89ca-1000--euro-2024-climate-fund-apply-from-8-january-2024/",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (2024b, July 10). UEFA EURO 2024 climate fund invests €7m in German clubs and regional associations. https://www.uefa.com/uefaeuro/history/news/028f-1b5529ae25f5-497d9376828d-1000--uefa-euro-2024-climate-fund-invests-7m-in-german-clubs-and-r/",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (2024c). UEFA EURO 2024 ESG Report. https://editorial.uefa.com/resources/0292-1c398b01c18b-b74c8334b99b-1000/uefa_euro_2024_esg_report.pdf",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (2025a, January 20). Final round of EURO 2024 climate fund takes overall investment to €7.925 million and 225 clubs. https://www.uefa.com/news-media/news/0295-1cdba7659d4f-2fded51eaef4-1000--final-round-of-euro-2024-climate-fund-takes-overall-invest/",
+    "status": "non_doi"
+  },
+  {
+    "reference": "UEFA. (2025b, July 14). UEFA EURO 2024 Climate Fund project successfully concludes with €7.925 million invested in grassroots sustainability. https://www.uefa.com/uefaeuro/history/news/029a-1dfb6934f1ca-c55889085d90-1000--uefa-euro-2024-climate-fund-project-successfully-concludes-w/",
+    "status": "non_doi"
+  },
+  {
+    "reference": "Wang, H., Tian, J., Li, Y., Wang, Y., Lu, Y., Zhang, J., Lei, C., & Li, C. (2024). Study on life-cycle carbon footprints and an uncertainty analysis of mega sporting events: An analysis in China. Buildings, 14(8), Article 2510. https://doi.org/10.3390/buildings14082510",
+    "status": "metadata_retrieved",
+    "doi": "10.3390/buildings14082510",
+    "title": [
+      "Study on Life-Cycle Carbon Footprints and an Uncertainty Analysis of Mega Sporting Events: An Analysis in China"
+    ],
+    "authors": [
+      {
+        "given": "Hongyan",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Beijing Key Laboratory of Green Built Environment and Energy Efficient, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jibang",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Key Laboratory of Green Built Environment and Energy Efficient, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4041-2259",
+        "authenticated-orcid": false,
+        "given": "Yanfeng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Key Laboratory of Green Built Environment and Energy Efficient, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Urban Construction, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yao",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Key Laboratory of Green Built Environment and Energy Efficient, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianye",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Urban Construction, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chentong",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Key Laboratory of Green Built Environment and Energy Efficient, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Key Laboratory of Green Built Environment and Energy Efficient, Beijing University of Technology, Beijing 100124, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Buildings"
+    ],
+    "volume": "14",
+    "issue": "8",
+    "page": "2510",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          14
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "Weber, M. (2024, October 1). UEFA-Förderung. FSV Lamerdingen. https://www.fsv-lamerdingen.de/uefa-foerderung",
+    "status": "non_doi"
+  },
+  {
+    "reference": "World Bank. (2023). Results-based climate finance to support mitigation policies in developing countries: Final report. https://www.tcafwb.org/sites/default/files/2023-05/WB_RBCF_Report_FINAL.pdf",
+    "status": "non_doi"
+  },
+  {
+    "reference": "World Bank. (2025). State and trends of carbon pricing 2025. https://doi.org/10.1596/978-1-4648-2255-1",
+    "doi": "10.1596/978-1-4648-2255-1",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

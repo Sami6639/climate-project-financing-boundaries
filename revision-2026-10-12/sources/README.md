@@ -1,0 +1,5 @@
+# Institutional source register
+
+These are the preserved October 12 scientific-closure source registers. Their checked_date, reviewed_main_and_SI_location, closure and verification_reuse fields describe that historical review and document version. They are not newly asserted October 15 locators or a new full source audit. Use the root exhibit_file_map.csv for current manuscript numbering. Source URL and source-document locator fields remain the routes to the underlying evidence.
+
+On October 15 the January 20 and July 14 UEFA fund announcements, Lamerdingen recipient report and Deutschlandfunk Lommersum report were reopened and the headline amounts reconfirmed. The reported inventory is 316,912 tonnes, fund scale EUR7,925,000, published investment EUR7,923,013, Lamerdingen cost/grant EUR48,250/EUR43,425, and Lommersum reported cost about EUR24,800 with about EUR2,500 own contribution and advance receipt. None establishes a complete dated cash ledger, reporting-error law or aggregate donor cap. No new exhaustive source or literature audit is claimed.

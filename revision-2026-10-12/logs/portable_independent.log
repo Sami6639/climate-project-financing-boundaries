@@ -1,0 +1,37 @@
+{
+  "validation": {
+    "uniform_benchmark_cases": 154,
+    "uniform_max_ramp_formula_gap": 7.542577673547157e-14,
+    "independent_nodal_lp_cases": 154,
+    "nodal_max_formula_gap": 2.171251108198935e-06,
+    "nodal_min_formula_gap": -2.220446049250313e-14,
+    "gaussian_quadrature_benchmark_cases": 36,
+    "gaussian_max_ramp_formula_gap": 2.456368441983159e-15,
+    "boundary_cases": 14,
+    "boundary_pass": true,
+    "central_ramp_target_error": 3.552713678800501e-15
+  },
+  "central": {
+    "B_eur": 7925000.0,
+    "U_eur": 8717500.0,
+    "target_q": 18.75,
+    "H_test": 7132500.0,
+    "Hmax": 6659096.179268995,
+    "ramp_threshold_report_tonnes": 263119.82169921976,
+    "ramp_cap_start_report_tonnes": 345455.97452845995,
+    "ramp_expected_expenditure": 7925000.0,
+    "ramp_marginal": 18.749999999999996,
+    "target_met_abs_error": 3.552713678800501e-15,
+    "cap_increase_for_90pct": 473403.8207310047,
+    "advance_reduction_from_90pct": 473403.8207310047,
+    "cap_at_mean_limited_transition": 9211502.387956878,
+    "cap_ratio_at_mean_limited_transition": 1.1623346861775241,
+    "rate_needed_for_mean_at_90pct": 24.35020292662861,
+    "max_target_at_90pct": 14.437764689654491,
+    "sd_span_threshold": 0.07700141167815729,
+    "sd_mean_threshold": 0.10266854890420972,
+    "fixed_cost_max_at_80pct_no_loading": 319096.1792689953,
+    "loading_max_at_80pct_zero_fixed_cost": 0.050330627644952
+  }
+}
+Independent advance maximizations:18/18 pass; maximum euro gap: 2.421438694000244e-08

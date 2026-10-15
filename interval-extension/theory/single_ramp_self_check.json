@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "row_count": 517,
+  "tolerance_scaled": 2e-10,
+  "maximum_scaled_order_error": 1.7763568394002506e-16,
+  "random_seed": null,
+  "failures": [],
+  "scope": "Algebraic implementation smoke checks; independent continuum validation is separate."
+}

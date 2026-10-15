@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep source/documentation text LF on all platforms.
+* text=auto eol=lf
+# Preserve exact audited CSV bytes (original writers use both LF and CRLF).
+*.csv -text
+# Do not apply text conversion to generated figures.
+*.png binary
+*.pdf binary
