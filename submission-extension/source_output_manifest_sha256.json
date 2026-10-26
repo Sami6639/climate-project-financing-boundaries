@@ -1,0 +1,19 @@
+{
+  "README.md": "870cd4cd89494554df64a6e7d660d63579562f0bf0f526822515bc37136bff2f",
+  "exhibit_file_map_extension.csv": "49c238317518dc2b37b3cde5c27a1813949313e544a9a0b8fcd7239a92fcc53e",
+  "figure5/figure5_and_authority_regions.py": "2334bc595f83155bf9c38ed0c46df8ead09aa42e6f7967bb16abc38b2f695b5c",
+  "figure5/outputs/Figure_5_Fixed_Cash_Financing_Regimes.png": "d9c6a94296cbb51c11cd08afbc637f71bc62ff32b12d4116ef7aa66a925742ed",
+  "figure5/outputs/figure5_authority_validation.json": "eff5cd3b2e88d3fa93d0f2d9679cca8119a0fcfec38be1b6ec461a437a98048d",
+  "run_all.py": "d2c4a3e7eb792af996e786e8af074bfe8391d75c10ae336d332312cf92bba201",
+  "s14/outputs/one_factor_sensitivity.csv": "be10cba8aae59ca5f41bef18bb88d47c8a7fe8805e95a646188b8f5f957e0e78",
+  "s14/outputs/sensitivity_audit.json": "f4411712a79e489ae72a8350393509217f61ca3cf403fce57b21ab153f84974c",
+  "s14/table_s14_sensitivity.py": "18a81cf624a8168343da9530bc3af80bc4a87211e3494139a21c6f9ff74ec267",
+  "s16/complexity_cost_break_even.csv": "09754e732a64e230159a0f527a68520de9c29116053a0cddc0a7b10c7a0db08d",
+  "s16/complexity_cost_validation.json": "037296f4f2b07a15abbf1b74329da59f5f1057f61f0410f64ea6f5f53a6a54a8",
+  "s16/reproduce_complexity_premium.py": "997dc2b929918b5f49a4ee043d7b7e7c9703518d6fd67428ed87a795adbddd82",
+  "s17/multifactor_audit.json": "1ca2c985b1280378665fea2620e488aff9e1c41f3b2ee40f12e14521fa842059",
+  "s17/multifactor_robustness.py": "f86094b5f1578ff47d5350fced10b3c302134475bddf9d7a4aff9a71f776ad1e",
+  "s17/multifactor_sensitivity_720.csv": "20a1a2613fd3d3753294536dc5fc5179466317f2e102f4b5125617f49213a806",
+  "s17/multifactor_summary.csv": "28a6d139008e35972ba16daad7772387e91f78f3945c5c20cfcf96f258964862",
+  "verify_outputs.py": "4caf1aed38eb3291550e9319447e1e79cd39f28b034395e62b2f0333c5889c01"
+}
