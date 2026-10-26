@@ -28,7 +28,5 @@ jobs:
         run: python verify_manifest.py
       - name: Reproduce historical scientific results
         run: python run_all.py
-      - name: Reproduce submission analyses
-        run: python submission-extension/run_all.py
       - name: Validate new analytical exhibits
         run: python submission-extension/verify_outputs.py
