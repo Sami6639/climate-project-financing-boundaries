@@ -122,7 +122,7 @@
   "revision-2026-10-12/sources/institutional_claim_register.json": "43c3fc39a64c9bc89e7e48d2527c0bd9a02beaab69ff5ed57857a80af27ddfc3",
   "revision-2026-10-12/sources/README.md": "f2c739bc1330cc1b720e7bc66c59b913c9baf427a134ce17c3b50ba328011be4",
   "revision-2026-10-12/THIRD_PARTY_DATA.md": "a2cbe78353282cabfad441dbc1d18dfbfc65f2aa861d42374a764a83c6529e9a",
-  "run_all.py": "03809ccf449eb9907898b576f676047997ae9591ce553feda66a6d6cbec7d5d0",
+  "run_all.py": "139815ae51dccf53a79ad52c8105fe0d9d436e84d0b5214a96b105f31128832b",
   "submission-extension/exhibit_file_map_extension.csv": "49c238317518dc2b37b3cde5c27a1813949313e544a9a0b8fcd7239a92fcc53e",
   "submission-extension/figure5/figure5_and_authority_regions.py": "2334bc595f83155bf9c38ed0c46df8ead09aa42e6f7967bb16abc38b2f695b5c",
   "submission-extension/provenance/original_snapshot_manifest_sha256.json": "8fe1aeea15576883b75a4c070eeee8282ac536b9ff469f496a637f64ef27ac0a",
@@ -136,5 +136,6 @@
   "submission-extension/verify_outputs.py": "4caf1aed38eb3291550e9319447e1e79cd39f28b034395e62b2f0333c5889c01",
   "THIRD_PARTY_DATA.md": "a2cbe78353282cabfad441dbc1d18dfbfc65f2aa861d42374a764a83c6529e9a",
   "verification_summary.json": "cd77eed73594bd6985113c7b09c930dadebcec7b6bcc565fcad3de9f03835a81",
-  "verify_manifest.py": "1db3c2610c25b9e7dfc4d22ee5cdc8a4abb4998da3d0a0487a72056a38c57d32"
+  "verify_manifest.py": "1db3c2610c25b9e7dfc4d22ee5cdc8a4abb4998da3d0a0487a72056a38c57d32",
+  "submission-extension/verify_historical_numerics.py": "8037dfe18c6339693960663637e12dec1a3ab2e091833e5da4d68ebd59c13b13"
 }
