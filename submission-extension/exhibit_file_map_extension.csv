@@ -1,0 +1,9 @@
+exhibit,repository_path,scope
+Figure 5,submission-extension/figure5/outputs/Figure_5_Fixed_Cash_Financing_Regimes.png,Derived conditional authority regions and thresholds for unchanged cash need
+Table S14,submission-extension/s14/outputs/one_factor_sensitivity.csv,Fourteen illustrative one-factor analyses not estimated parameter distributions
+Section S15,submission-extension/figure5/outputs/figure5_authority_validation.json,Sharp interval budget and exposure certificate applied to fixed cash need
+Table S16,submission-extension/s16/complexity_cost_break_even.csv,Incremental deterministic complexity cost break-even against optimized single ramp
+Section S16,submission-extension/s16/complexity_cost_validation.json,Conditional financing-capacity comparison no observed complexity cost
+Table S17,submission-extension/s17/multifactor_summary.csv,720 fixed illustrative grid scenarios grouped by q/p
+Section S17,submission-extension/s17/multifactor_sensitivity_720.csv,Illustrative grid records and full-only financeability under unchanged requirement
+Section S17 Audit,submission-extension/s17/multifactor_audit.json,240 numerical ramp searches and 720 conditional advance LP checks

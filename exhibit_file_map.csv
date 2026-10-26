@@ -23,3 +23,11 @@ Table S10,README.md,Scope/attribution table; not a numerical result
 Table S11,interval-extension/validation/ramp_equality_and_figure_audit.json,1641 numerical equality cases; analytical proof remains in supplied supplement
 Table S12,interval-extension/validation/gaussian_interval_comparison.csv,All 15 displayed rows checked; original continuum/tail-bound audit rerun
 Table S13,interval-extension/run_summary.json; interval-extension/validation/ramp_equality_and_figure_audit.json,Original case counts and tolerance gates rerun
+Figure 5,submission-extension/figure5/outputs/Figure_5_Fixed_Cash_Financing_Regimes.png,Derived conditional authority regions and thresholds for unchanged cash need
+Table S14,submission-extension/s14/outputs/one_factor_sensitivity.csv,Fourteen illustrative one-factor analyses not estimated parameter distributions
+Section S15,submission-extension/figure5/outputs/figure5_authority_validation.json,Sharp interval budget and exposure certificate applied to fixed cash need
+Table S16,submission-extension/s16/complexity_cost_break_even.csv,Incremental deterministic complexity cost break-even against optimized single ramp
+Section S16,submission-extension/s16/complexity_cost_validation.json,Conditional financing-capacity comparison no observed complexity cost
+Table S17,submission-extension/s17/multifactor_summary.csv,720 fixed illustrative grid scenarios grouped by q/p
+Section S17,submission-extension/s17/multifactor_sensitivity_720.csv,Illustrative grid records and full-only financeability under unchanged requirement
+Section S17 Audit,submission-extension/s17/multifactor_audit.json,240 numerical ramp searches and 720 conditional advance LP checks

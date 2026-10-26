@@ -1,0 +1,126 @@
+{
+  "status": "PASS within reviewed computational scope",
+  "date": "2026-10-15",
+  "manuscript_title": "Financing Climate Projects: The Boundaries of Financial Capacity",
+  "matching_extension_archive": {
+    "file": "Interval_Financing_Reproducibility_Strengthened.zip",
+    "sha256": "e2995032c534aefed63ea48ec46dd6950e455dca1953d845cc86445be1a8c6e5"
+  },
+  "excluded_versions": "Later Strengthened(1) and Ghana_Case archives include material absent from the supplied manuscript.",
+  "original_extension_manifest_files": 109,
+  "original_baseline_manifest_files": 27,
+  "baseline_scientific_outputs_compared": 17,
+  "baseline_mathematical_checks": {
+    "pass": 176,
+    "fail": 0
+  },
+  "extension": {
+    "status": "PASS",
+    "python": "3.12.14",
+    "dependency_versions": {
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.66.1",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.10.8",
+      "numpy": "2.3.5",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "2.9.0.post0",
+      "scipy": "1.17.0",
+      "six": "1.17.0"
+    },
+    "random_seeds": {
+      "original_stress_LP": 20261014,
+      "original_cost": 20261014,
+      "independent_ramp": 20261014,
+      "new_cost": 20261014,
+      "single_ramp_formula": "deterministic, no random sampling"
+    },
+    "tolerances": {
+      "baseline_normalized_geometric_LP_absolute": 1e-10,
+      "baseline_cost_absolute_currency": 1e-06,
+      "baseline_cost_relative": 1e-09,
+      "single_ramp_formula_scaled": 2e-10,
+      "independent_ramp_normalized_money": 2e-09,
+      "independent_ramp_normalized_slope": 2e-10,
+      "gaussian_money_and_slope_safety": 2e-09,
+      "gaussian_coefficient_allowance": 2e-13,
+      "gaussian_enclosure_width_strict_upper": 0.075,
+      "cost_objective_and_feasibility_normalized": 1e-08,
+      "cost_optimal_face_normalized": 1e-07,
+      "cost_derivative_relative": 2e-05
+    },
+    "checks": {
+      "baseline": {
+        "status": "PASS",
+        "construction_cases": 112,
+        "lp_bracket_cases": 44,
+        "infeasibility_cases": 11,
+        "convergence_LP_cases": 18,
+        "seeded_cost_cases": 1000,
+        "geometry_absolute_tolerance": 1e-10,
+        "cost_absolute_tolerance": 1e-06,
+        "cost_relative_tolerance": 1e-09,
+        "seed": 20261014,
+        "max_exact_error": 3.552713678800501e-15,
+        "max_bracket_violation": 7.549516567451064e-15,
+        "max_primal_violation": 2.531308496145357e-14,
+        "max_duality_gap": 1.9984014443252818e-14
+      },
+      "extensions": {
+        "status": "PASS",
+        "deterministic_ramp_cases": 517,
+        "independent_ramp_random_cases": 240,
+        "independent_ramp_comparison_rows": 189,
+        "ramp_boundary_cases": 94,
+        "gaussian_numerical_certificates": 15,
+        "gaussian_max_enclosure_width": 0.061460221182173314,
+        "cost_original_cases_retested": 1000,
+        "cost_targeted_edge_cases": 174,
+        "cost_sensitivity_rows": 73,
+        "cost_derivative_checks": 72
+      }
+    },
+    "completed_scripts": [
+      "validation/validate_interval.py",
+      "validation/stress_formula.py",
+      "validation/check_inadmissible.py",
+      "validation/benchmark_comparison.py",
+      "validation/make_interval_figure.py",
+      "cost/cost_comparison.py",
+      "cost/export_tables.py",
+      "theory/single_ramp_optimum.py",
+      "theory/make_three_way_figure.py",
+      "validation/run_strengthened_validation.py",
+      "validation/make_optimized_interval_figure.py",
+      "cost/validate_price_regions.py"
+    ],
+    "generated_output_count": 41
+  },
+  "extension_replay_comparison": {
+    "outputs": 41,
+    "byte_identical_non_pdf_outputs": 38,
+    "pdf_outputs": 3,
+    "pdf_rendered_pages_identical": true,
+    "pdf_difference": "Creation-date metadata"
+  },
+  "supplied_document_checks": {
+    "main_tables_1_to_4_and_key_arithmetic": 63,
+    "SI_S5_S7_S9_checks": 61,
+    "SI_S9b_S12_and_PDF_checks": 23,
+    "all_passed": true,
+    "all_four_embedded_figures_match": true
+  },
+  "integrated_portable_entrypoint": "All three original scientific entry points completed successfully in the stripped package.",
+  "fail_closed_negative_cases": 12,
+  "scope_boundaries": [
+    "Documentary institutional inputs and hypothetical scenario parameters are separate.",
+    "No empirical reporting-error distribution, project cash-flow dataset, aggregate donor cap or causal emissions estimate is claimed.",
+    "Numerical reruns support implementation reproducibility; they are not a new independent formal proof or exhaustive literature review.",
+    "Four institutional source pages were freshly rechecked; other register checks retain their explicitly historical review dates.",
+    "A pre-existing Python 3.12.14 environment with the matching pinned dependencies was used for these reruns. A new installation was not performed during this review; the complete official-PyPI wheel-hash lock is supplied."
+  ],
+  "numerical_discrepancies_found": []
+}
