@@ -1,6 +1,5 @@
 {
   ".gitattributes": "18e56933eba2fbea2e79ff1680bc7499868f76186eedaf4f7fde2e00bde00242",
-  ".github/workflows/verify-submission-extension.yml": "7d1cafa35517be41b9e110b83fbee71c81ca30f92f3698dbfb3b8fd5f70fa93b",
   ".gitignore": "86118d45ba9bf33fe738d23440f59157a858ae4ffcde195a83c4b4769d83c12a",
   "exhibit_file_map.csv": "7d93e4df55f31e9253e7fda1c0041a76b1b855c44ee6a3c720aca1a3b5ea347f",
   "interval-extension/cost/all_candidate_comparisons.csv": "c209cd628774ace6fdae57550d2693e58e1d9f7b9eb805c1a91963613bc62b15",
